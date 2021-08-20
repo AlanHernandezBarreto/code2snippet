@@ -63,7 +63,7 @@ body{
 #description{
   width: 93%;
 }
-#snipped{
+#snippet{
   height: 100%;
 }
 .change{
@@ -100,5 +100,3 @@ body{
     flex-direction: column;
   }
 }
-/* 
- */
