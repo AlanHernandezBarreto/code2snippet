@@ -14,8 +14,7 @@ string2 = string2.replace(/\n|\r/g, '",\n"');
 string3 = '"';
 string3 = string3.concat(string2, '",');
 /* reemplazamos x espacios por "/t" que es la expresión regular de tab */
-// Nota: no he podido añadir "\" debido a que lo detecta como una expresión regular
-string3 = string3.replace(/  /g, 't');
+string3 = string3.replace(/  /g, '\\t');
 /* quitamos la ultima coma */
 let string4 = string3.substring(0, string3.length - 1);
 /* agregamos el name, prefix y description */
