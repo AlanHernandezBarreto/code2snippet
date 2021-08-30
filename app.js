@@ -24,7 +24,7 @@ snippet.value=
 	"description": "${description.value}",
 	"body": [
 ${string4}
-	        ]
+]
 }`
 };
 /* pegamos el resultado en el portapapeles*/
